@@ -1,0 +1,104 @@
+%Copyright (c) 2016 Thomas Reynolds
+
+#include <SPI.h>
+#include "Adafruit_KHighResMAX31855.h"
+ 
+#define MotorDirPin 2
+#define MotorSpeedPin 3
+#define PotPin A8
+ 
+#define MAXDO   52
+#define MAXCS   50
+#define MAXCLK  48
+
+int Position, SetTemp, NumberCycles, NumberStages;
+byte Direction;
+double TempNow;
+volatile int SetPosition;
+unsigned long TestParam[][];
+
+Adafruit_KHighResMAX31855 thermocouple(MAXCLK, MAXCS, MAXDO);
+
+void setup(){
+	Serial.begin(9600);
+	pinMode(MotorDirPin, OUTPUT);
+	pinMode(MotorSpeedPin, OUTPUT);
+	Position = analogRead(A8);
+	TempNow = thermocouple.readCelsius();
+	digitalWrite(MotorSpeedPin, LOW);
+	Serial.println("Input number of test stages (number of temperatures in each cycle including room temperature");
+	While(Serial.available() == 0);
+	NumberStages = Serial.parseInt();
+	NumberStages =- 1;
+	TestParam[][NumberStages];
+	for(int i = 0; i <= NumberStages; i++){
+		Serial.print("Input temperature ");
+		Serial.println(i+1);
+		while(Serial.available() == 0);
+		TestParam[0][i] = .parseInt();
+		Serial.println("Input time (minutes)");
+		While(Serial.available() == 0);
+	TestParam[1][i] = Serial.parseInt() * 60000;
+	}
+	Serial.println("Input number of cycles");
+	while(Serial.available() == 0);
+	NumberCycles = Serial.parseInt();
+	Serial.println("Test series is as follows:");
+	for(int i = 0; i <=NumberStages; i++){
+	Serial.print(TestParam[0][i]);
+	Serial.print("degrees for ");
+	Serial.print(TestParam[1][i]/60000);
+	Serial.println{"minutes"}
+	}
+	Serial.print("For ");
+	Serial.print(NumberCycles);
+	Serial.println("cycles");
+	Position = analogRead(A8);
+	SetPosition = 160
+	if(Position < SetPosition) Direction = HIGH;
+    else Direction = LOW;
+    while(abs(analogRead(PotPin) - SetPosition) >=5){
+      analogWrite(MotorSpeedPin, 50);
+      digitalWrite(MotorDirPin, Direction);
+    }
+    digitalWrite(MotorSpeedPin, LOW);
+	Serial.println("Send any key to start test");
+	while(!Serial.available());
+}
+
+void loop(){
+	Serial.println("Send any key to start test");
+	while(!Serial.available());
+	for(int LoopCount = 1; LoopCount <= NumberCycles; LoopCount++){
+		Serial.print("Cycle");
+		Serial.println(LoopCount);
+		for(int i = 0; i <= NumberStages; i++){
+			Serial.print(TestParam[0][i]);
+			Serial.print("degrees for ");
+			Serial.print(TestParam[1][i]/60000);
+			Serial.println{"minutes"}
+			goPosition(TestParam[0][i]);
+			Serial.println("Movement confirmed")
+			delay(TestParam[1][i]);
+		}
+	}
+	Serial.println("Repeat test? Y/N");
+	if(Serial.available() > 0){
+		char Response = Serial.read();
+		}
+	if(Response == 'Y');
+	else while(1);
+}
+
+void goPosition(int Temp){
+	if(Temp == 0) int NewPosition = 160);
+	else NewPosition = (-2070.8819)+(10.4218*Temp)+(-0.0129*sq(T))+(5.52E-6*pow(T,3));
+	Position = analogRead(A8);
+	if(Position < NewPosition) Direction = HIGH;
+    else Direction = LOW;
+    while(abs(analogRead(PotPin) - NewPosition) >=5){
+      analogWrite(MotorSpeedPin, 50);
+      digitalWrite(MotorDirPin, Direction);
+    }
+}
+
