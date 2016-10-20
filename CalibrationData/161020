@@ -1,0 +1,495 @@
+cyclicrig@cyclicrig-desktop:~$ sudo minicom -s
+[sudo] password for cyclicrig: 
+
+
+Welcome to minicom 2.7
+
+OPTIONS: I18n                                                                
+Compiled on Feb  7 2016, 13:37:32.                                           
+Port /dev/ttyACM0, 10:26:16                                                  
+                                                                             
+Press CTRL-A Z for help on special keys                                      
+                                                                             
+Position = 198                                                               
+                                                                             
+Temperature = 49.48                                                          
+                                                                             
+Position = 203                                                               
+                                        
+Temperature = 50.73                     
+                                        
+Position = 208                          
+                                        
+Temperature = 52.23                     
+
+Position = 213
+
+Temperature = 53.22                                                             
+                                                                                
+Position = 217                                                                  
+                                                                                
+Temperature = 54.47                                                             
+                                                                                
+Position = 223                                                                  
+                                                                                
+Temperature = 55.97                                                             
+                                                                                
+Position = 227                                                                  
+                                                                                
+Temperature = 57.46                                                             
+                                                                                
+Position = 233                                                                  
+                                                                                
+Temperature = 58.71                                                             
+                                                                                
+Position = 238                                                                  
+                                                                                
+Temperature = 60.45                                                             
+                                                                                
+Position = 242                                                                  
+                                                                                
+Temperature = 62.69                                                             
+                                                                                
+Position = 248                                                                  
+                                                                                
+Temperature = 64.18                                                             
+                                                                                
+Position = 252                                                                  
+                                                                                
+Temperature = 66.17                                                             
+                                                                                
+Position = 258                                                                  
+                                                                                
+Temperature = 69.14                                                             
+                                                                                
+Position = 263                                                                  
+                                                                                
+Temperature = 72.12                                                             
+                                                                                
+Position = 268                                                                  
+                                                                                
+Temperature = 74.35                                                             
+                                                                                
+Position = 272                                                                  
+                                                                                
+Temperature = 78.32                                                             
+                                                                                
+Position = 277                                                                  
+                                                                                
+Temperature = 82.78                                                             
+                                                                                
+Position = 283                                                                  
+                                                                                
+Temperature = 87.25                                                             
+                                                                                
+Position = 287                                                                  
+                                                                                
+Temperature = 91.23                                                             
+                                                                                
+Position = 292                                                                  
+                                                                                
+Temperature = 95.46                                                             
+                                                                                
+Position = 298                                                                  
+                                                                                
+Temperature = 100.19                                                            
+                                                                                
+Position = 303                                                                  
+                                                                                
+Temperature = 106.19                                                            
+                                                                                
+Position = 308                                                                  
+                                                                                
+Temperature = 112.20                                                            
+                                                                                
+Position = 313                                                                  
+                                                                                
+Temperature = 118.24                                                            
+                                                                                
+Position = 318                                                                  
+                                                                                
+Temperature = 125.31                                                            
+                                                                                
+Position = 322                                                                  
+                                                                                
+Temperature = 132.16                                                            
+                                                                                
+Position = 327                                                                  
+                                                                                
+Temperature = 142.09                                                            
+                                                                                
+Position = 332                                                                  
+                                                                                
+Temperature = 147.97                                                            
+                                                                                
+Position = 337                                                                  
+                                                                                
+Temperature = 159.52                                                            
+                                                                                
+Position = 341                                                                  
+                                                                                
+Temperature = 168.02                                                            
+                                                                                
+Position = 347                                                                  
+                                                                                
+Temperature = 180.66                                                            
+                                                                                
+Position = 353                                                                  
+                                                                                
+Temperature = 192.53                                                            
+                                                                                
+Position = 358                                                                  
+                                                                                
+Temperature = 204.92                                                            
+                                                                                
+Position = 363                                                                  
+                                                                                
+Temperature = 215.99                                                            
+                                                                                
+Position = 368                                                                  
+                                                                                
+Temperature = 227.79                                                            
+                                                                                
+Position = 373                                                                  
+                                                                                
+Temperature = 242.08                                                            
+                                                                                
+Position = 378                                                                  
+                                                                                
+Temperature = 260.35                                                            
+                                                                                
+Position = 382                                                                  
+                                                                                
+Temperature = 275.20                                                            
+                                                                                
+Position = 387                                                                  
+                                                                                
+Temperature = 291.72                                                            
+                                                                                
+Position = 392                                                                  
+                                                                                
+Temperature = 308.15                                                            
+                                                                                
+Position = 398                                                                  
+                                                                                
+Temperature = 328.45                                                            
+                                                                                
+Position = 403                                                                  
+                                                                                
+Temperature = 346.22                                                            
+                                                                                
+Position = 408                                                                  
+                                                                                
+Temperature = 362.22                                                            
+                                                                                
+Position = 412                                                                  
+                                                                                
+Temperature = 375.71                                                            
+                                                                                
+Position = 418                                                                  
+                                                                                
+Temperature = 391.41                                                            
+                                                                                
+Position = 424                                                                  
+                                                                                
+Temperature = 404.12                                                            
+                                                                                
+Position = 427                                                                  
+                                                                                
+Temperature = 414.12                                                            
+                                                                                
+Position = 433                                                                  
+                                                                                
+Temperature = 427.31                                                            
+                                                                                
+Position = 436                                                                  
+                                                                                
+Temperature = 435.31                                                            
+                                                                                
+Position = 443                                                                  
+                                                                                
+Temperature = 445.75                                                            
+                                                                                
+Position = 448                                                                  
+                                                                                
+Temperature = 456.00                                                            
+                                                                                
+Position = 453                                                                  
+                                                                                
+Temperature = 463.88                                                            
+                                                                                
+Position = 458                                                                  
+                                                                                
+Temperature = 471.89                                                            
+                                                                                
+Position = 463                                                                  
+                                                                                
+Temperature = 479.72                                                            
+                                                                                
+Position = 468                                                                  
+                                                                                
+Temperature = 484.97                                                            
+                                                                                
+Position = 473                                                                  
+                                                                                
+Temperature = 497.24                                                            
+                                                                                
+Position = 477                                                                  
+                                                                                
+Temperature = 500.09                                                            
+                                                                                
+Position = 483                                                                  
+                                                                                
+Temperature = 507.52                                                            
+                                                                                
+Position = 487                                                                  
+                                                                                
+Temperature = 514.24                                                            
+                                                                                
+Position = 493                                                                  
+                                                                                
+Temperature = 520.18                                                            
+                                                                                
+Position = 498                                                                  
+                                                                                
+Temperature = 526.21                                                            
+                                                                                
+Position = 503                                                                  
+                                                                                
+Temperature = 533.96                                                            
+                                                                                
+Position = 508                                                                  
+                                                                                
+Temperature = 538.32                                                            
+                                                                                
+Position = 513                                                                  
+                                                                                
+Temperature = 544.37                                                            
+                                                                                
+Position = 518                                                                  
+                                                                                
+Temperature = 549.69                                                            
+                                                                                
+Position = 522                                                                  
+                                                                                
+Temperature = 555.26                                                            
+                                                                                
+Position = 528                                                                  
+                                                                                
+Temperature = 561.07                                                            
+                                                                                
+Position = 532                                                                  
+                                                                                
+Temperature = 567.12                                                            
+                                                                                
+Position = 538                                                                  
+                                                                                
+Temperature = 571.97                                                            
+                                                                                
+Position = 543                                                                  
+                                                                                
+Temperature = 577.30                                                            
+                                                                                
+Position = 548                                                                  
+                                                                                
+Temperature = 582.38                                                            
+                                                                                
+Position = 553                                                                  
+                                                                                
+Temperature = 587.72                                                            
+                                                                                
+Position = 556                                                                  
+                                                                                
+Temperature = 592.32                                                            
+                                                                                
+Position = 562                                                                  
+                                                                                
+Temperature = 598.14                                                            
+                                                                                
+Position = 568                                                                  
+                                                                                
+Temperature = 603.72                                                            
+                                                                                
+Position = 573                                                                  
+                                                                                
+Temperature = 608.34                                                            
+                                                                                
+Position = 577                                                                  
+                                                                                
+Temperature = 613.19                                                            
+                                                                                
+Position = 582                                                                  
+                                                                                
+Temperature = 617.81                                                            
+                                                                                
+Position = 588                                                                  
+                                                                                
+Temperature = 623.40                                                            
+                                                                                
+Position = 593                                                                  
+                                                                                
+Temperature = 627.54                                                            
+                                                                                
+Position = 598                                                                  
+                                                                                
+Temperature = 632.17                                                            
+                                                                                
+Position = 603                                                                  
+                                                                                
+Temperature = 636.55                                                            
+                                                                                
+Position = 608                                                                  
+                                                                                
+Temperature = 641.18                                                            
+                                                                                
+Position = 613                                                                  
+                                                                                
+Temperature = 645.82                                                            
+                                                                                
+Position = 618                                                                  
+                                                                                
+Temperature = 650.21                                                            
+                                                                                
+Position = 622                                                                  
+                                                                                
+Temperature = 654.36                                                            
+                                                                                
+Position = 628                                                                  
+                                                                                
+Temperature = 658.52                                                            
+                                                                                
+Position = 633                                                                  
+                                                                                
+Temperature = 661.94                                                            
+                                                                                
+Position = 637                                                                  
+                                                                                
+Temperature = 666.10                                                            
+                                                                                
+Position = 643                                                                  
+                                                                                
+Temperature = 670.27                                                            
+                                                                                
+Position = 648                                                                  
+                                                                                
+Temperature = 676.15                                                            
+                                                                                
+Position = 652                                                                  
+                                                                                
+Temperature = 680.57                                                            
+                                                                                
+Position = 657                                                                  
+                                                                                
+Temperature = 684.25                                                            
+                                                                                
+Position = 663                                                                  
+                                                                                
+Temperature = 687.94                                                            
+                                                                                
+Position = 667                                                                  
+                                                                                
+Temperature = 691.38                                                            
+                                                                                
+Position = 674                                                                  
+                                                                                
+Temperature = 695.07                                                            
+                                                                                
+Position = 678                                                                  
+                                                                                
+Temperature = 698.02                                                            
+                                                                                
+Position = 683                                                                  
+                                                                                
+Temperature = 701.22                                                            
+                                                                                
+Position = 688                                                                  
+                                                                                
+Temperature = 704.68                                                            
+                                                                                
+Position = 694                                                                  
+                                                                                
+Temperature = 707.88                                                            
+                                                                                
+Position = 697                                                                  
+                                                                                
+Temperature = 710.60                                                            
+                                                                                
+Position = 703                                                                  
+                                                                                
+Temperature = 713.07                                                            
+                                                                                
+Position = 708                                                                  
+                                                                                
+Temperature = 716.28                                                            
+                                                                                
+Position = 712                                                                  
+                                                                                
+Temperature = 718.75                                                            
+                                                                                
+Position = 718                                                                  
+                                                                                
+Temperature = 721.47                                                            
+                                                                                
+Position = 722                                                                  
+                                                                                
+Temperature = 723.95                                                            
+                                                                                
+Position = 727                                                                  
+                                                                                
+Temperature = 726.43                                                            
+                                                                                
+Position = 733                                                                  
+                                                                                
+Temperature = 729.40                                                            
+                                                                                
+Position = 738                                                                  
+                                                                                
+Temperature = 731.63                                                            
+                                                                                
+Position = 744                                                                  
+                                                                                
+Temperature = 734.36                                                            
+                                                                                
+Position = 748                                                                  
+                                                                                
+Temperature = 736.34                                                            
+                                                                                
+Position = 752                                                                  
+                                                                                
+Temperature = 738.82                                                            
+                                                                                
+Position = 757                                                                  
+                                                                                
+Temperature = 740.81                                                            
+                                                                                
+Position = 763                                                                  
+                                                                                
+Temperature = 743.55                                                            
+                                                                                
+Position = 767                                                                  
+                                                                                
+Temperature = 745.54                                                            
+                                                                                
+Position = 773                                                                  
+                                                                                
+Temperature = 748.02                                                            
+                                                                                
+Position = 779                                                                  
+                                                                                
+Temperature = 750.02                                                            
+                                                                                
+Position = 782                                                                  
+                                                                                
+Temperature = 752.01                                                            
+                                                                                
+Position = 788                                                                  
+                                                                                
+Temperature = 753.75                                                            
+                                                                                
+Position = 793                                                                  
+                                                                                
+Temperature = 755.50                                                            
+                                                                                
+Position = 799                                                                  
+                                                                                
+Temperature = 757.99              
