@@ -1,13 +1,13 @@
-%Copyright (c) 2016 Thomas Reynolds
+// Copyright (c) 2016 Thomas Reynolds
 
-#include <SPI.h>
-#include "Adafruit_KHighResMAX31855.h"
+#include <SPI.h> // Required for temperature sensor
+#include "Adafruit_KHighResMAX31855.h"//Required for temperature sensor
 
-#define MotorDirPin 2
+#define MotorDirPin 2 // Definition of motor connections
 #define MotorSpeedPin 3
-#define PotPin A8
+#define PotPin A8 // Signal connection from string pot
 
-#define MAXDO   52
+#define MAXDO   52 //Pin connections for thermocouple reader 
 #define MAXCS   50
 #define MAXCLK  48
 
@@ -15,7 +15,7 @@ int Position, SetTemp, NumberCycles, NumberStages;
 byte Direction;
 double TempNow;
 volatile int SetPosition, Temp;
-unsigned long TestParam[2][3];
+unsigned long TestParam[2][3]; //Array to store test paramaters
 char Response;
 
 Adafruit_KHighResMAX31855 thermocouple(MAXCLK, MAXCS, MAXDO);
@@ -100,7 +100,7 @@ void loop(){
   else;
 }
 
-void goPosition(int Temp){
+void goPosition(int Temp){ // Function to convert input temperature to a furnace positions
   if(Temp == 0) SetPosition = 160;
   else if (Temp < 400) SetPosition = Temp/(0.1020 + (0.0021*Temp)); 
   else SetPosition = (293.9276)+(0.7452*Temp)+(-0.0020*(pow(Temp,2)))+(2.5442E-006*(pow(Temp,3)));
